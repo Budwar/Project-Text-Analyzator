@@ -119,4 +119,4 @@ for x in range(min(graf.keys()), max(graf.keys())+1):
     else:
         print(str(x).rjust(3) + "|" + "*" * int(graf[x]) + "|".rjust(max(graf.values()) + 3 - graf.get(x)) + str(graf[x]))
 
-print("Thank you for using the app.")
+print("\nThank you for using the app.")
